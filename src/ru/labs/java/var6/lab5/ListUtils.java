@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class ListUtils {
 
 	/**
-	 * Вставка элементов.
+	 * Р’СЃС‚Р°РІРєР° СЌР»РµРјРµРЅС‚Р°
 	 * @param first
 	 * @param value
 	 * @return
@@ -28,7 +28,7 @@ public class ListUtils {
 	}
 
 	/**
-	 * Фильтрация списка, строки содержат только буквы.
+	 *Р¤РёР»СЊС‚СЂР°С†РёСЏ С‡С‚РѕР± Р±С‹Р»Рё С‚РѕР»СЊРєРѕ Р±СѓРєРІРµРЅРЅС‹Рµ СЃС‚СЂРѕРєРё
 	 * @param first
 	 * @return
 	 */
@@ -44,10 +44,8 @@ public class ListUtils {
 	}
 
 	/**
-	 * Проверяем все ли символы строки - буквы.
+	 * Р•СЃР»Рё РІ СЃС‚СЂРѕРєРµ С‚РѕР»СЊРєРѕ Р±СѓРєРІР°  - С‚СЂСѓ
 	 * 
-	 * @param value строка
-	 * @return true если нет ничего кроме букв
 	 */
 	private static boolean checkAllAlphabeticLetters(String value) {
 
@@ -58,7 +56,7 @@ public class ListUtils {
 	}
 
 	/**
-	 * Конкатенация строк, рекурсивный алгоритм!
+	 * РєРѕРЅРєР°С‚РµРЅР°С†РёСЏ СЂРµРєСѓСЂСЃРёРІРЅС‹Рј Р°Р»РіРѕСЂРёС‚РјРѕРј.
 	 * 
 	 * @param first
 	 * @return
@@ -74,7 +72,7 @@ public class ListUtils {
 	}
 
 	/**
-	 * ПРеобразовывает лист в массив чтоб рекурсивно конкатенировать строки.
+	 * РџСЂРµРѕР±СЂР°Р·СѓРµРј РІ РјР°СЃСЃРёРІ, РїРѕРЅР°РґРѕР±РёС‚СЃСЏ РґР»СЏ СЂРµРєСѓСЂСЃРёРІРЅРѕРіРѕ Р°Р»РіРѕСЂРёС‚РјР°
 	 * @param first
 	 * @return
 	 */
@@ -88,7 +86,7 @@ public class ListUtils {
 	}
 
 	/*
-	 * Получаем размер листа.
+	 * Р Р°Р·РјРµСЂ СЃРїРёСЃРєР°
 	 */
 	public static int getSizeOfList(ListElement first) {
 		int size = 0;
@@ -100,7 +98,7 @@ public class ListUtils {
 	}
 
 	/**
-	 * Тестируем работу алгоритма.
+	 * РўРµСЃС‚РёСЂСѓРµРј Р°Р»РіРѕСЂРёС‚Рј
 	 * @param args
 	 */
 	public static void main(String[] args) {

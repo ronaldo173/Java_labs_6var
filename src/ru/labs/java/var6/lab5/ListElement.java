@@ -1,7 +1,7 @@
 package ru.labs.java.var6.lab5;
 
 /**
- * Мой список строк.
+ * РњРѕР№ СЃРїРёСЃРѕРє
  *
  */
 public class ListElement {

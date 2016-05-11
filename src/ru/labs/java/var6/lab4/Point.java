@@ -1,8 +1,7 @@
 package ru.labs.java.var6.lab4;
 
 /**
- * Класс - для определения точки, х, у - целые значения координат по осям. 
- *
+ * РњРѕСЏ С‚РѕС‡РєР° СЃ РєРѕРѕСЂРґРёРЅР°С‚Р°Рј С…,Сѓ
  */
 public class Point {
 
@@ -34,7 +33,7 @@ public class Point {
 	@Override
 	public String toString() {
 		double angle = (double)this.y/this.x;
-		return "(" + x + "," + y +") - <Угол отклонения = " + angle + ">";
+		return "(" + x + "," + y +") - <пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ = " + angle + ">";
 	}
 	
 	

@@ -9,7 +9,7 @@ import org.junit.Test;
 public class TestMyAlgoritm {
 
 	/**
-	 * Проверяем правильно ли находит NOD
+	 * РїСЂРѕРІРµСЂРєР° Р·РЅР°С‡РµРЅРёСЏ NOD
 	 */
 	@Test
 	public void test() {
@@ -36,7 +36,7 @@ public class TestMyAlgoritm {
 	}
 
 	/**
-	 * Нагрузочные тесты, в любом случае должно быть число НОД
+	 * РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РЅР°РіСЂСѓР·РѕС‡РЅРѕРµ
 	 */
 	@Test
 	public void stressTestOne() {

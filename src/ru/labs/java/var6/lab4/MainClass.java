@@ -25,7 +25,7 @@ public class MainClass {
 			sc.close();
 		}
 
-		/*// заполняем список для теста
+		/*//РўРµСЃС‚РѕРІС‹Рµ РґР°РЅРЅС‹Рµ
 		list.add(new Point(1, 2));
 		list.add(new Point(4, 6));
 		list.add(new Point(8, 4));

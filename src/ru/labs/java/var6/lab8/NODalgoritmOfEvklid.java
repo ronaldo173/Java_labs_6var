@@ -1,14 +1,14 @@
 package ru.labs.java.var6.lab8;
 
 /**
- * НОД массива чисел
+ *РњРѕР№ РЅРѕРґ Р°Р»РіРѕСЂРёС‚Рј РґР»СЏ РјР°СЃСЃРёРІР°
  *
  */
 public class NODalgoritmOfEvklid {
 
 	public static int findGcd(int... numbers) {
 
-		// находим минимальный элемент массива
+		// РёС‰Сѓ РјРёРЅРёРјР°Р»СЊРЅС‹Р№
 		int smallest = numbers[0];
 		for (int i = 1; i < numbers.length; i++) {
 			if (numbers[i] < smallest) {
@@ -16,7 +16,7 @@ public class NODalgoritmOfEvklid {
 			}
 		}
 
-		// ищем GCD
+		// РёС‰Сѓ GCD
 		while (smallest > 1) {
 
 			int counter = 0;
@@ -35,7 +35,7 @@ public class NODalgoritmOfEvklid {
 			smallest--;
 
 		}
-		// если нет возвращаем -1
+		// РµСЃР»Рё РЅРµС‚ РіСЃРґ РІРѕР·РІСЂР°С‰Р°СЋ -1
 		return -1;
 	}
 

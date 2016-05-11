@@ -4,10 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Класс для тестирования алгоритма.
- *
- */
 public class Main {
 
 	public static void main(String[] args) throws IOException {
@@ -24,11 +20,6 @@ public class Main {
 				first = ListUtils.insert(first, value);
 			}
 
-			/*
-			 * //тестим на строках System.out.println("Elements: " + N); for
-			 * (int i = 0; i < N; i++) { String value = "test"; first =
-			 * ListUtils.insert(first, value); }
-			 */
 
 			ListElement listElementAfterFilter = ListUtils.filter(first);
 			String result = ListUtils.reduce(listElementAfterFilter, ListUtils.getSizeOfList(listElementAfterFilter) -1);
