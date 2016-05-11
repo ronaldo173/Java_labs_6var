@@ -1,4 +1,4 @@
-package ru.labs.java.var6.lab3____1;
+package ru.labs.java.var6.lab6;
 
 public class SimpleNode implements AbstractNode {
 	private final boolean value;

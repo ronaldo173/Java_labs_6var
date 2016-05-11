@@ -1,4 +1,4 @@
-package ru.labs.java.var6.lab2;
+package ru.labs.java.var6.lab5;
 
 import java.util.ArrayList;
 import java.util.Arrays;

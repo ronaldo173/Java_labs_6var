@@ -1,4 +1,4 @@
-package ru.labs.java.var6.lab3____1;
+package ru.labs.java.var6.lab7;
 
 public interface AbstractNode {
 	boolean calculate();
