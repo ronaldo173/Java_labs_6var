@@ -24,11 +24,13 @@ public class MainClass {
 		} finally {
 			sc.close();
 		}
-		/*
-		 * //заполняем список для теста list.add(new Point(1, 2)); list.add(new
-		 * Point(4, 6)); list.add(new Point(8, 4)); list.add(new Point(4, 4));
-		 * list.add(new Point(2, 2));
-		 */
+
+		/*// заполняем список для теста
+		list.add(new Point(1, 2));
+		list.add(new Point(4, 6));
+		list.add(new Point(8, 4));
+		list.add(new Point(4, 4));
+		list.add(new Point(2, 2));*/
 
 		sort(list);
 	}
