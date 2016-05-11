@@ -1,4 +1,4 @@
-package ru.labs.java.var6.lab5;
+package ru.labs.java.var6.lab2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

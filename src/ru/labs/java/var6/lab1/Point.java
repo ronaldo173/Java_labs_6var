@@ -1,4 +1,4 @@
-package ru.labs.java.var6.lab4;
+package ru.labs.java.var6.lab1;
 
 /**
  * Класс - для определения точки, х, у - целые значения координат по осям. 

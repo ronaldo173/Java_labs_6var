@@ -1,15 +1,15 @@
-package ru.labs.java.var6.lab7;
+package ru.labs.java.var6.lab3;
 
 public class SimpleNode implements AbstractNode {
-	private final boolean value;
+	private final int value;
 
-	public SimpleNode(boolean value) {
+	public SimpleNode(int value) {
 		super();
 		this.value = value;
 	}
 
 	@Override
-	public boolean calculate() {
+	public int calculate() {
 		return value;
 	}
 
