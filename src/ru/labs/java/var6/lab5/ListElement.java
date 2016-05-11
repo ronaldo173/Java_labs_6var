@@ -1,4 +1,4 @@
-package ru.labs.java.var6.lab2;
+package ru.labs.java.var6.lab5;
 
 /**
  * Мой список строк.
